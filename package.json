@@ -1,0 +1,32 @@
+{
+    "name": "productivity-pack",
+    "displayName": "Time Tracking Pack",
+    "description": "Set of time tracking extensions",
+    "version": "1.0.0",
+    "publisher": "thegeoffstevens",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/geoffstevens8/time-tracking-pack"
+    },
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#384357",
+        "theme": "dark"
+      },
+    "keywords": [
+        "productivity",
+        "focus",
+        "time-tracking"
+    ],
+    "extensionPack": [ 
+        "softwaredotcom.swdc-vscode", 
+        "cosminalco.pomodoro", 
+        "burkeholland.simple-timer"
+    ]
+}
